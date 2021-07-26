@@ -2,7 +2,7 @@ const express = require("express");
 const expressEJSLayout = require("express-ejs-layouts");
 const App = express();
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 App.use(expressEJSLayout);
 
