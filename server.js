@@ -34,3 +34,4 @@ App.listen(PORT, () => {
 
 App.use(express.static(__dirname + "/public"));
 App.use(express.static(__dirname + "/src"));
+App.use(express.static(__dirname + "/aplication"));
