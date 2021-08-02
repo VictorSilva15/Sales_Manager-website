@@ -9,7 +9,7 @@ App.use(expressEJSLayout);
 App.set("view engine", "ejs");
 
 App.get("/", (req, res) => {
-  res.render("pages/index");
+  res.render("pages/home");
 });
 
 App.get("/informacoes", (req, res) => {
