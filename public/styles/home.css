@@ -1,0 +1,91 @@
+.container {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+.container .section {
+  flex: 1;
+}
+#download-info {
+  margin-left: 3rem;
+}
+#download-info h1 {
+  font-size: 3rem;
+  margin: 8rem 3rem 1.8rem;
+}
+#download-info p {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 0 3rem 8rem;
+}
+#download-info a {
+  text-decoration: none;
+  width: 300px;
+  padding: 30px;
+  color: var(--white);
+  background: var(--blue);
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+}
+#download-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-130px);
+}
+/* =========== card sections ============= */
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-info p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 2rem;
+  color: var(--grey-dark);
+  border-left: 4px solid var(--blue);
+  padding-left: 2rem;
+  width: 80%;
+}
+.card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card01 {
+  background: var(--blue);
+}
+.card01 p {
+  color: var(--white);
+  border-color: var(--black);
+}
+.card02 {
+  background: var(--grey);
+}
+.card02 p {
+  color: var(--black);
+}
+.card02 .card-image img {
+  width: 300px;
+}
+.card03 {
+  background: azure;
+  color: var(--black);
+}
+.card04 {
+  background: lightcyan;
+  color: black;
+}
+.card05 {
+  background: var(--black);
+}
+.card05 p {
+  color: var(--white);
+}
